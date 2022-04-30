@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: left;
+}
+
+
+.aboba {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color: lightblue ;
+}
+
+.aboba:hover {
+    text-align: center;
+    color: black;
+    font-size: 30;
+    box-shadow: 3px 5px 10px lightblue;
+}
+
+
+.ura {
+    background-image: linear-gradient( lightgreen, greenyellow);
+}
+
+.ura:hover {
+        box-shadow: 3px 5px 10px greenyellow;
+}
+
+
+.link-nav {
+    color: black;
+    text-align: left;
+    background-color: lightgreen;
+}
+
+.link-nav:hover {
+        box-shadow: 3px 5px 10px lightgreen;
+}
+
+.pisya {
+    text-align: center;
+    color: white;
+    background-color: greenyellow;
+}
+
+.pisya:hover {
+        box-shadow: 3px 5px 10px gold;
+}
+
+.social {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.social img {
+    opacity: 0.2;
+    width: 200px;
+    height: 200px;
+}
+
+.social img:hover {
+    opacity: 1;
+    margin: 20px;
+    border: 3px solid navy;
+}
+
